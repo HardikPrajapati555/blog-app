@@ -28,19 +28,19 @@ const products = [
   },
   {
     id: 4,
-    name: "HELLO",
+    name: "HELLO",                                    
     image: "",
-    oldPrice: 1500,
-    newPrice: 1000,
-    unit: "per kg",
+    oldPrice: 1500,                                                   
+    newPrice: 1000,                                                               
+    unit: "per kg", 
   },
 ];
 
 const images = [
-  "https://media.istockphoto.com/id/814423752/photo/eye-of-model-with-colorful-art-make-up-close-up.jpg?s=612x612&w=0&k=20&c=l15OdMWjgCKycMMShP8UK94ELVlEGvt7GmB_esHWPYE=",
-  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8Fettjl2rGDjHBlCYCXcWMRAoKDr_AQOoXQ&s",
-  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtxa9CWxfiyXpAoPdzkQEVbnIloOu7Ti6dVQUkuihlUu_A0h7_GmdOFSwZ-Fq4A4_8Cyw&usqp=CAU",
-];
+  // "https://media.istockphoto.com/id/814423752/photo/eye-of-model-with-colorful-art-make-up-close-up.jpg?s=612x612&w=0&k=20&c=l15OdMWjgCKycMMShP8UK94ELVlEGvt7GmB_esHWPYE=",
+  // "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8Fettjl2rGDjHBlCYCXcWMRAoKDr_AQOoXQ&s",
+  // "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtxa9CWxfiyXpAoPdzkQEVbnIloOu7Ti6dVQUkuihlUu_A0h7_GmdOFSwZ-Fq4A4_8Cyw&usqp=CAU",
+];                                                                                
 
 function ProductList() {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -54,7 +54,7 @@ function ProductList() {
 
   return (
     <div className="container mx-auto my-8">
-      <div className="w-full overflow-hidden rounded-xl shadow-lg">
+      <div className="w-full overflow-hidden shadow-lg rounded-xl">
         <div className="relative w-full h-64">
           {images.map((img, index) => (
             <img
@@ -104,4 +104,4 @@ function ProductList() {
   );
 }
 
-export default ProductList;
+export default ProductList;                                                     
