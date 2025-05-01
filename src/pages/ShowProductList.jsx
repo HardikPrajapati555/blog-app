@@ -70,10 +70,10 @@ function ProductList() {
       </div>
 
       <h2 className="mt-10 text-3xl font-bold text-center">
-        Welcome to My store🚀                                                        
+        Welcome to My store🚀                                                                          
       </h2>
 
-      <h2 className="mb-8 text-3xl font-bold text-center">Products</h2>
+      <h2 className="mb-8 text-3xl font-bold text-center">Products</h2>                                                     
       <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3">
         {products.map((product) => (
           <div
@@ -95,7 +95,7 @@ function ProductList() {
                   ₹{product.newPrice}
                 </span>
               </div>
-              <p className="mt-2 text-sm text-gray-600">{product.unit}</p>
+              <p className="mt-2 text-sm text-gray-600">{product.unit}</p>                                      
             </div>
           </div>
         ))}
@@ -104,4 +104,5 @@ function ProductList() {
   );
 }
 
-export default ProductList;                                                     
+export default ProductList;                                                                                                                                                            
+  
